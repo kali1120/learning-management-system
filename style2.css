@@ -1,0 +1,116 @@
+/*----------------------------FEATURE-----------------------------*/
+ul 
+{ 
+ 
+  list-style: none;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width:100%;
+}
+
+ul div
+{
+  display: inline-block;
+  text-align: center;
+  font-family: sans-serif;
+}
+ul div h4
+{
+  color:rgb(253, 28, 76);
+}
+ul div p
+{
+  text-align: center;
+  width: 280px; 
+  font-size: 14px;
+}
+ul div li{
+    display: inline-block;
+    border-radius: 50%;
+}
+
+ul div li a
+ {
+      color: white;
+      display: table-cell;
+      vertical-align: middle; 
+      text-align: center;
+      text-decoration: none;
+      height: 140px;
+      width: 140px; 
+      border:1px solid gray;
+      border-radius: 50%;  
+ }
+ ul li a:hover, a:active 
+ {
+      color: rgb(30, 173, 255);
+      background-color: white;
+      text-decoration: none;
+}
+
+ul li .box1
+{
+  background-color:rgb(255, 58, 101);
+}
+ul li .box2
+{
+  background-color:rgb(255, 93, 34);
+}
+ul li .box3
+{
+  background-color:rgb(16, 206, 16);
+}
+ul li .box4
+{
+  background-color:rgb(47, 196, 196);
+}
+    
+/*-----------------------------CONTACT-----------------------------*/
+.contact
+{
+  display:inline;
+}
+.contact .icon
+{
+  display: inline-block;
+  background-color: rgba(231, 234, 240, 0.822);
+  border-radius: 50%;
+  color:rgb(16, 206, 16);
+  margin-left:8%;
+  margin:5%;
+}
+.contact .details
+{
+  float: right;
+  text-align: right;
+  margin-right:35%;
+  margin-bottom: 3%;
+}
+
+/*-----------------------------FOOTER-----------------------------*/
+footer{
+  background-color:rgb(47, 196, 196); 
+  width:100%;
+  padding:3% 8% 3% 8%;
+}
+footer a
+{
+  padding: 1%;
+  color:white;
+}
+.top-button i
+{
+  padding-left:8px;
+}
+.top-button
+{
+  display: inline-block;
+  background-color: black;
+  border-radius: 50%;
+  color:white;
+  width:40px;
+  height: 40px;
+  position:fixed;
+  bottom:10px;
+  right:10px;
+}

@@ -1,0 +1,7 @@
+f=open("C:\\Users\\ASUS\\Desktop\\html\\f1.txt",'w')
+f.write("Welcome!")
+f.write("to Lovely Professional University")
+f.close()
+a=f.write()
+print(a)
+f.close()
